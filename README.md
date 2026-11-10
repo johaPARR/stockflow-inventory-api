@@ -1,12 +1,14 @@
 # StockFlow API
 
+![CI](https://github.com/johaPARR/stockflow-inventory-api/actions/workflows/tests.yml/badge.svg)
+
 🌎 **Language / Idioma:** [English](#english) · [Español](#español)
 
 ---
 
 <a id="english"></a>
 
-## 🇬🇧 English
+## English
 
 **Inventory Management & Ecommerce Integration API**
 
@@ -218,11 +220,11 @@ The workflow:
 6. Applies Alembic migrations.
 7. Runs the Pytest suite.
 
-The workflow configuration is included in the repository; its successful execution should be confirmed in the GitHub Actions tab after the workflow is pushed.
+The workflow runs successfully on GitHub Actions.
 
 ### Project Status
 
-The local API, PostgreSQL integration, migrations, Docker Compose setup, interactive API documentation, and 30-test local suite have been verified. The GitHub Actions workflow is configured. Public deployment and production verification are not yet included in this release.
+The local API, PostgreSQL integration, migrations, Docker Compose setup, interactive API documentation, and 30-test local suite have been verified. The GitHub Actions workflow runs successfully. Public deployment and production verification are not yet included in this release.
 
 ### Author
 
@@ -234,7 +236,7 @@ GitHub: https://github.com/johaPARR
 
 <a id="español"></a>
 
-## 🇪🇸 Español
+## Español
 
 **API de gestión de inventario e integración con ecommerce**
 
@@ -446,11 +448,11 @@ El flujo:
 6. Aplica las migraciones de Alembic.
 7. Ejecuta la suite de Pytest.
 
-La configuración del workflow está incluida en el repositorio; su ejecución exitosa deberá confirmarse en la pestaña GitHub Actions después de subirlo.
+El workflow se ejecuta correctamente en GitHub Actions.
 
 ### Estado del proyecto
 
-Se verificaron localmente la API, la integración con PostgreSQL, las migraciones, la configuración de Docker Compose, la documentación interactiva y la suite local de 30 pruebas. El workflow de GitHub Actions está configurado. El despliegue público y su verificación en producción todavía no forman parte de esta versión.
+Se verificaron localmente la API, la integración con PostgreSQL, las migraciones, la configuración de Docker Compose, la documentación interactiva y la suite local de 30 pruebas. El workflow de GitHub Actions se ejecuta correctamente. El despliegue público y su verificación en producción todavía no forman parte de esta versión.
 
 ### Autoría
 
